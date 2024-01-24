@@ -27,8 +27,6 @@ public class PlayerController
         this.playerScriptableObject.KeysEquipped = 0;
         LightSwitchView.lightToggled += onLightSwitch;
         playerState = PlayerState.InDark;
-
-        LightSwitchView.lightSwitch += OnLightSwitchToggled;
     }
 
     ~PlayerController()
